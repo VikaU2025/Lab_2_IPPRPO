@@ -12,7 +12,7 @@ public class Main {
                     HelloWorld.helloWorld();
                     break;
                 case 2:
-
+                    System.out.println(Calculator.canculate());
                     break;
                 case 3:
                     break;
