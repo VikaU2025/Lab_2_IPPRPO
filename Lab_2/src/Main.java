@@ -15,6 +15,7 @@ public class Main {
                     System.out.println(Calculator.canculate());
                     break;
                 case 3:
+                    Sum.sum();
                     break;
                 case 4:
                     break;
