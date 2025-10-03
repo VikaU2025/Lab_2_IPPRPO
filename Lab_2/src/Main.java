@@ -18,6 +18,12 @@ public class Main {
                     Sum.sum();
                     break;
                 case 4:
+                    if (Polindrom.isPolindrom()){
+                        System.out.println("палиндром");
+                    }
+                    else {
+                        System.out.println("Не палиндром");
+                    }
                     break;
                 case 0:
                     System.exit(0);
