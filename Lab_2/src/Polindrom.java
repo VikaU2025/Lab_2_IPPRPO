@@ -5,6 +5,7 @@ public class Polindrom {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ведите слово: ");
         String word = sc.nextLine();
+        word = word.toLowerCase();
         if (word == null) {
             return false;
         }
