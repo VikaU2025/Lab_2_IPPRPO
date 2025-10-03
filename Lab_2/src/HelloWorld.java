@@ -2,7 +2,9 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
 public class HelloWorld {
-    public static void main(String[] args) {
+    public static void helloWorld() {
+
+
         String text = "Привет, мир!, Hello Vika!";
         try (OutputStreamWriter writer = new OutputStreamWriter(System.out, StandardCharsets.UTF_8)) {
             writer.write(text);
